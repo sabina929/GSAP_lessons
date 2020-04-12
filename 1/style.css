@@ -1,0 +1,55 @@
+.shape {
+  background-color: teal;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2px;
+  border-radius: 5%;
+}
+
+.shape:nth-child(2) {
+  background-color: gray;
+}
+
+.shape:nth-child(3) {
+  background-color: violet;
+}
+
+.shape:nth-child(4) {
+  background-color: orange;
+}
+
+.shape:nth-child(5) {
+  background-color: purple;
+}
+
+.shape:nth-child(6) {
+  background-color: olive;
+}
+
+#shapes {
+  margin-left: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#shapes .sh {
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#shapes .sh:nth-child(2) {
+  background-color: green;
+}
+
+#shapes .sh:nth-child(3) {
+  background-color: orange;
+}
+/*# sourceMappingURL=style.css.map */

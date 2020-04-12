@@ -1,0 +1,29 @@
+.shape {
+  background-color: purple;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+nav {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+nav button {
+  margin-right: 20px;
+  background: violet;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+nav button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+/*# sourceMappingURL=style.css.map */
