@@ -1,4 +1,4 @@
-// DELAY - relative position to the prev. tween. "+=number" or "-=number" or "<" - start at the same time as the prev. tween
+// DELAY - relative position to the prev. tween. "+=number" or "-=number" or "<" - start at the same time as the prev. tween or "<0.2" - start 0.2s after prev. tween
 
 var animation = gsap.timeline();
 
