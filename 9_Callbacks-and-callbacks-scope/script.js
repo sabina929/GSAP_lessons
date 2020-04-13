@@ -40,7 +40,7 @@
         // AFTER ADDING CALLBACKSCOPE: THIS
         console.log(this) // OUR TEXT CLASS
         console.log(this.message)
-        console.log(this.animation.duration())
+        console.log(this.animation.duration()) // by default 0.5
         console.log(this.animation.repeat())
       }
     
