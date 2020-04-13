@@ -61,14 +61,18 @@ gsap.fromTo(
   });
   gsap.to(".text2", { x: 200, duration: 1, delay: 2, ease: "linear" });
   
-  // STAGGER. each - as default; amount - sharing staggered times between elements; from: "end" / "center" / "edges".
+  // STAGGER. each - as default; amount - sharing staggered times between elements; from: "end" / "center" / "edges"; ease: "power2" / "power4" / "power4.in" / "power1"
+
   // gsap.to("#shapes .sh", { y: -100, duration: 0.8, stagger: 0.2 });
   
   gsap.to("#shapes .sh", {
     y: -80,
+    repeat: -1,
+    yoyo: true,
     stagger: {
       amount: 0.5,
-      from: "edges"
+      from: "edges",
+      ease: "elastic"
     }
   });
   
