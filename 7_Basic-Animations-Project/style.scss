@@ -1,5 +1,5 @@
 body {
-    background: #222;
+    background: hsl(300, 16%, 8%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,41 +7,38 @@ body {
   }
   #demo {
     position: relative;
-    width: 620px;
-    height: 400px;
-    border: 1px solid #fff;
+    width: 820px;
+    height: 540px;
   }
   
   #main {
     position: absolute;
     width: 250px;
     top: 10px;
-    left: 20px;
+    left: 40px;
+    color: hsl(300, 47%, 90%);
   }
   
   h1 {
     font-size: 3rem;
-    color: #eee;
   }
   
   h2 {
     font-size: 2.4rem;
-    margin-top: -10px;
-    color: #eee;
+    margin-top: 20px;
   }
   
   p {
     font-weight: 200;
-    margin-top: 14px;
+    margin-top: 20px;
     font-size: 1.8rem;
-    color: #eee;
   }
   
   #shapes {
     position: absolute;
-    left: 260px;
-    top: 40px;
-    width: 280px;
+    right: 20px;
+    top: 30px;
+    width: 420px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -52,7 +49,7 @@ body {
       height: 50px;
       border-radius: 20%;
       background-color: hsl(300, 47%, 75%);
-      margin: 15px;
+      margin: 30px;
       &_2 {
         background-color: hsl(240, 47%, 75%);
         width: 75px;
