@@ -1,0 +1,13 @@
+div {
+  margin-top: 50px;
+  width: 200px;
+  height: auto;
+}
+
+div span {
+  display: inline-block;
+  font-size: 5rem;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+/*# sourceMappingURL=style.css.map */
