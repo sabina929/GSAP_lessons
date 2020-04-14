@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.demo div {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 3rem;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+/*# sourceMappingURL=style.css.map */
