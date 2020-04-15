@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #947d4b;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container p {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e4dbc9;
+}
+
+#target {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#target .word {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e4dbc9;
+}
+/*# sourceMappingURL=style.css.map */

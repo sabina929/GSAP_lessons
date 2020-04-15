@@ -6,13 +6,46 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+
     <title>1</title>
 </head>
 <body>
-    <div id="demo">
-       
+    <div class="container">
+        <p data-splitting class="parag1">Awesome text</p>
+        <p data-splitting class="parag2">Lorem ipsum dolor sit amet.</p>
+        <p data-splitting class="parag3">Consectetur, adipisicing elit.</p>
+        
     </div>
 
+
+
+
+    <div id="target">Splitting<br /> Text</div>
+
+<script>
+const target = document.querySelector('#target');
+const results = Splitting({ target: target, by: 'lines' });
+
+// results[0].el // <div id="target" class="splitting lines" style="--line-total: 1; --word-total: 2">...</div>
+// results[0].words[0] // <span class="word" data-word="Splitting" style="--word-index: 0">...</span>
+// results[0].words[1] // <span class="word" data-word="Text" style="--word-index: 1">...</span>
+
+// results[0].lines[0][0] // <span class="word" data-word="Splitting" style="--word-index: 0">...</span>
+
+
+gsap.from("#target .word", {
+  y: 100,
+  duration: 3.6,
+  stagger: .8,
+  ease: "elastic(1, 0.8)"
+});
+
+</script>
     <script src="./script.js"></script>
 </body>
 </html>

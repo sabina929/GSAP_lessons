@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(148, 125, 75);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    // margin-top: 150px;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    p {
+      font-size: 3rem;
+      font-weight: 800;
+      color: hsl(41, 33%, 84%);;
+    }
+  }
+
+
+  #target{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+  }
+  #target .word{
+    font-size: 3rem;
+    font-weight: 800;
+    color: hsl(41, 33%, 84%);;
+  }
